@@ -1,12 +1,12 @@
-let paragraf = document.getElementById('#tekst');
-    button = document.getElementById('#dodaj');
-    button = document.getElementById('#usun')
+let paragraf = document.getElementById('tekst');
+let buttonAdd = document.getElementById('dodaj');
+let buttonDele = document.getElementById('usun')
 
  document.querySelector('#dodaj').onclick = function (){
-    tekst.textContent = 'Ala ma kota'
+    paragraf.textContent = 'Ala ma kota'
 }
 
 document.querySelector('#usun').onclick = function (){
-    tekst.textContent = ''
+    paragraf.textContent = ''
 }
 
